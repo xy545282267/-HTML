@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>任务一</title>
+    </head>
+    <body>
+        <h1>网站一级标题</h1>
+        <ul>
+        <li><a href="#" title="导航链接一">导航链接一</a></li>
+        <li><a href="#" title="导航链接二">导航链接二</a></li>
+        <li><a href="#" title="导航链接三">导航链接三</a></li?
+        <li><a href="#" title="导航链接四">导航链接四</a></li>
+        </ul>
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <p><span>文章作者 文章发表时间</span></p>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行</p>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,换行</p>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" title="有个链接">这里有一个链接连接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落,<strong>这里有个粗体</strong>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落。</p>
+        <img src="myimge.jpg" title="图片">
+        <ul><li>列表项目一</li>
+        <li>列表项目二</li>
+        <li>列表项目三</li></ul>
+        <h4>图片</h4>
+        <p>好看的图片</p>
+        <img src="myimge.jpg" title="图片">
+        <p>好看的图片</p>
+        <img src="myimge.jpg" title="图片">
+        <p>好看的图片</p>
+        <img src="myimge.jpg" title="图片">
+        <p>好看的图片</p>
+        <img src="myimge.jpg" title="图片">
+        <p>好看的图片</p>
+        <img src="myimge.jpg" title="图片">
+        <h5>最后一篇文章的一级标题</h5>
+        <h6>文章的二级标题</h6>
+        <p><span>文章作者 文章发表时间</span></p>
+        <ol><li>排名1</li>
+        <li>排名2</li>
+        <li>排名3</li></ol>
+        <span>下面是一个表格，给表格加了一个border="1"好让你看出这是一个表格</span>
+        <table border="1">
+          <tbody>
+            <tr>
+               <th>表头</th>
+               <th>表头</th>
+               <th>表头</th>
+            </tr>
+            <tr>
+               <td>表内容单元格</td>
+               <td>表内容单元格</td>
+               <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+               <td>表内容单元格</td>
+               <td>表内容单元格</td>
+               <td>操作</td>
+            </tr>
+            <tr>
+               <td>表内容单元格</td>
+               <td>表内容单元格</td>
+               <td>操作</td>
+            </tr>
+            <tr>
+               <td>表内容单元格</td>
+               <td>表内容单元格</td>
+               <td>操作</td>
+            </tr>
+            <tr>
+               <td>总计</td>
+               <td colspan="2">100</td>
+            </tr>
+          </tbody>
+        </table>
+
+    </body>
+</html>
