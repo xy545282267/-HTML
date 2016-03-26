@@ -73,6 +73,47 @@
             </tr>
           </tbody>
         </table>
-
-    </body>
+        <aside>
+             <h7>这里以后是一个侧栏，这是侧栏的标题</h2>
+             <h8>侧栏注册窗口标题</h8>
+             <form>
+                   <label for="email">请输入邮箱地址:</label>
+                   <input id="email" type="text" name="email" placeholder="这是一个文本输入框">
+                   <p>邮箱地址请按要求格式输入</p>
+                   
+                   <label for="pass">请输入密码:</label>
+                   <input id="pass" type="password" name="password" placeholder="这是一个文本输入框">
+                   <label for="repass">请重复输入密码:</label>
+                   <input id="repass" type="password" name="repassword" placeholder="这是一个文本输入框">
+                   <p>密码请为6-16位英文数字</p>
+                   
+                   <label>性别:</label>
+                   <input id="male" type="radio" name="sex" value="male" checked="checked">
+                   <label for="male">男</label>
+                   <input id="female" type="radio" name="sex" value="female">
+                   <label for="female">女</label>
+                   
+                   <label for="city">城市</label>
+                   <select id="city" name="city">
+                           <option value="bj">成都</option>
+                           <option value="hrb">重庆</option>
+                           <option value="xt">贵州</option>
+                    </select>
+                    
+                    <label>爱好</label>
+                    <input id="sport" type="checkbox" name="sport">
+                    <label for="sport">运动</label>
+                    <input id="art" type="checkbox" name="art">
+                    <label for="art">艺术</label>
+                    <input id="scie" type="checkbox" name="scie"?
+                    <label for="scie">科学</label>
+                    
+                    <label for="selfdes">个人描述</label>
+                    <textarea id="selfdes" placeholder="这是一个多行输入框，请输入您的个人描述"></textarea>
+                    
+                    <input type="submit" value="确认提交">
+            </form>
+        </aside>
+        <footer><small>版权所有©</small></footer>
+</body>
 </html>
