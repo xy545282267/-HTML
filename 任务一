@@ -5,24 +5,29 @@
         <title>任务一</title>
     </head>
     <body>
+        <header>
         <h1>网站一级标题</h1>
+        <nav>
         <ul>
         <li><a href="#" title="导航链接一">导航链接一</a></li>
         <li><a href="#" title="导航链接二">导航链接二</a></li>
         <li><a href="#" title="导航链接三">导航链接三</a></li?
         <li><a href="#" title="导航链接四">导航链接四</a></li>
         </ul>
+        </nav>
+        </header>
+        <article>
         <h2>文章一级标题</h2>
         <h3>文章二级标题</h3>
         <p><span>文章作者 文章发表时间</span></p>
-        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行</p>
-        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,换行</p>
-        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" title="有个链接">这里有一个链接连接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落,<strong>这里有个粗体</strong>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落。</p>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行<br/>
+           这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,换行<br/>
+           这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" title="有个链接">这里有一个链接连接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落,<strong>这里有个粗体</strong>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落。</p>
         <img src="myimge.jpg" title="图片">
         <ul><li>列表项目一</li>
         <li>列表项目二</li>
         <li>列表项目三</li></ul>
-        <h4>图片</h4>
+        <h3>图片</h3>
         <p>好看的图片</p>
         <img src="myimge.jpg" title="图片">
         <p>好看的图片</p>
@@ -33,8 +38,9 @@
         <img src="myimge.jpg" title="图片">
         <p>好看的图片</p>
         <img src="myimge.jpg" title="图片">
-        <h5>最后一篇文章的一级标题</h5>
-        <h6>文章的二级标题</h6>
+        <article>
+        <h2>最后一篇文章的一级标题</h2>
+        <h3>文章的二级标题</h3>
         <p><span>文章作者 文章发表时间</span></p>
         <ol><li>排名1</li>
         <li>排名2</li>
@@ -73,9 +79,10 @@
             </tr>
           </tbody>
         </table>
+        </article>
         <aside>
-             <h7>这里以后是一个侧栏，这是侧栏的标题</h2>
-             <h8>侧栏注册窗口标题</h8>
+             <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+             <h2>侧栏注册窗口标题</h2>
              <form>
                    <label for="email">请输入邮箱地址:</label>
                    <input id="email" type="text" name="email" placeholder="这是一个文本输入框">
@@ -95,9 +102,9 @@
                    
                    <label for="city">城市</label>
                    <select id="city" name="city">
-                           <option value="bj">成都</option>
-                           <option value="hrb">重庆</option>
-                           <option value="xt">贵州</option>
+                           <option value="cd">成都</option>
+                           <option value="cq">重庆</option>
+                           <option value="gz">贵州</option>
                     </select>
                     
                     <label>爱好</label>
